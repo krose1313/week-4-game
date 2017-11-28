@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Crystal Collector Game</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<div id="container">
+		<header>
+			<h1>Crystal Collector Game!</h1>
+		</header>
+
+		<section>
+			<p>A random number is displayed at the start of the game.</p>
+			<br/>
+			<p>There are four magical crystals for you to click on. Each crystal represents a hidden number. 
+			<br/>
+			<p>Each time you click on one of the four crystals you will add the number of points that crystal is worth to your total point counter.</p>
+			<br/>
+			<p>Your goal is to match your point counter to the random number and you win!</p>
+			<br/>
+			<p>If the points you generate exceed the random number then you lose</p>
+			<br/>
+			<p>After a win or loss the game will reset and the values of each magical crystal will change. The random number will also change.</p>
+		</section>
+
+		<div id="randomnumber-and-scoreboard">
+			<div id="random-number-generator">
+				<div id="random-number"></div>
+			</div>
+
+			<div id="score-board">
+				<div id="win-or-lose">
+					<p id="p-win-or-lose"><br></p>
+				</div>
+				<div id="win-counter">
+					<p id="p-win-counter">Wins: </p>
+				</div>
+				<div id="loss-counter">
+					<p id="p-loss-counter">Losses: </p> 
+				</div>
+			</div>
+		</div>
+
+		<div id="crystals">
+			<img id="blue" src="assets/images/blue_gem.jpg" alt="blue gem">
+			<img id="pink" src="assets/images/pink_gem.jpg" alt="pink gem">
+			<img id="ruby" src="assets/images/ruby_gem.jpg" alt="ruby jem">
+			<img id="rainbow" src="assets/images/rainbow_gem_heart.jpg" alt="rainbow heart gem">
+		</div>
+
+		<div id="current-score">
+			<h1>Your total score is:</h1>
+			<div id="current-score-counter">
+				<p id="p-current-score-counter"></p>
+			</div>
+		</div>
+	</div>
+
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>

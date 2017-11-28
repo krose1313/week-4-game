@@ -1,0 +1,118 @@
+body {
+	background: url(../images/background.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+h1 {
+	color: #5642f4;
+}
+
+p {
+	color: #5642f4;
+}
+
+#container {
+	margin-top: 25px;
+}
+
+header {
+	background-color: #58f441;
+	width: 500px;
+	margin: 0 auto;
+	border-radius: 25%;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 2px;
+	padding: 15px 10px 15px 30px;
+}
+
+section {
+	background-color: #edcbea;
+	width: 500px;
+	height: 320px;
+	line-height: 1em;
+	margin: 25px auto 10px;
+}
+
+section p {
+	padding-top: 9px;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+#randomnumber-and-scoreboard {
+	width: 500px;
+	margin: 0 auto 10px;
+	height: 130px;
+	font-color: black;
+	text-align: center;
+	font-size: 30px;
+}
+
+#random-number {
+	padding-left: 8px;
+	font-color: black;
+	text-align: center;
+	font-size: 30px;
+}
+
+#random-number-generator {
+	background-color: #49db86;
+	font-size: 30px;
+	font-color: black;
+	width: 49%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+#score-board {
+	background-color: #4ff2ff;
+	width: 49%;
+	height: 100%;
+	font-size: 15px;
+	float: right;
+	text-align: center;
+	line-height: 1.4em;
+}
+
+#crystals {
+	background-color: #fff;
+	width: 496px;
+	height: 126px;
+	margin: auto;
+	border: 4px solid #0b1de8;
+}
+
+#crystals img {
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+#current-score {
+	clear: both;
+	width: 500px;
+	height: 105px;
+	background-color: #edcbea;
+	margin: 10px auto;
+}
+
+#current-score h1 {
+	font-size: 150%;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+#current-score-counter {
+	color: #edcbea;
+	font-size: 350%;
+	padding-left: 10px;
+}
+
+
+
